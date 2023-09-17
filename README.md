@@ -27,5 +27,9 @@ for data structure recap
   - morris traversal
   - convert general tree to binary tree (left child right sibling representation)
 
+- [x] Binary Search Tree / AVL tree / Red Black tree
+  - benchmark with vanilla binary search tree and std::set<int>
+
 ## Graph
 - [x] dfs / bfs traversal
+- [x] topological sort

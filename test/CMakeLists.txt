@@ -10,3 +10,6 @@ target_link_libraries(test_sort PRIVATE misc sort fmt::fmt)
 
 add_executable(test_tree test_tree.cpp)
 target_link_libraries(test_tree PRIVATE misc tree fmt::fmt)
+
+add_executable(test_bs_tree test_bs_tree.cpp)
+target_link_libraries(test_bs_tree PRIVATE misc tree fmt::fmt)
