@@ -17,3 +17,8 @@ target_sources(tree PUBLIC
 target_include_directories(tree PUBLIC tree)
 set_property(TARGET tree PROPERTY CXX_STANDARD 17)
 set_property(TARGET tree PROPERTY CXX_STANDARD_REQUIRED TRUE)
+
+add_library(tree_set INTERFACE)
+target_include_directories(tree_set INTERFACE tree_set)
+set_property(TARGET tree_set PROPERTY CXX_STANDARD 17)
+set_property(TARGET tree_set PROPERTY CXX_STANDARD_REQUIRED TRUE)
